@@ -12,6 +12,7 @@ package studentweek3;
 public class Student {
     private int ID;
     private String firstName;
+    private boolean partTime;
 
     /**
      * @return the ID
@@ -39,6 +40,20 @@ public class Student {
      */
     public void setFirstName(String firstName) {
         this.firstName = firstName;
+    }
+
+    /**
+     * @return the partTime
+     */
+    public boolean isPartTime() {
+        return partTime;
+    }
+
+    /**
+     * @param partTime the partTime to set
+     */
+    public void setPartTime(boolean partTime) {
+        this.partTime = partTime;
     }
     
 }
