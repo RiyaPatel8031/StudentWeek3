@@ -20,6 +20,7 @@ public class StudentWeek3 {
         s1.setFirstName("Riya");
         s1.setID(4);
         System.ut.println("Hiiiiii");
+        System.out.println("Riya Patel");
     }
     
 }
