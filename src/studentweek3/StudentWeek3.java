@@ -19,7 +19,7 @@ public class StudentWeek3 {
         Student s1=new Student();
         s1.setFirstName("Riya");
         s1.setID(4);
-        
+        System.ut.println("Hiiiiii");
     }
     
 }
